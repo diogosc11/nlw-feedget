@@ -27,7 +27,7 @@ export function ScreenshotButton({ screenshot, onTakeShot, onRemoveShot }: Props
             <Image
               style={styles.image}
               source={{ uri: screenshot }}
-             />
+            />
             <Trash
               size={22}
               color={theme.colors.text_secondary}
